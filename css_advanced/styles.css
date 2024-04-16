@@ -1,0 +1,395 @@
+:root {
+  --color-primary: #C271FF;
+  --color-secondary: #071629;
+  --color-white: #FFFFFF;
+  --color-text-light: rgba(7, 22, 41, 0.50);
+  --font-family-main: 'Source Sans Pro', sans-serif;
+  --border-radius: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family-main);
+  background: url('Images/background.png') no-repeat center center, 
+              radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.00) 0%, var(--color-secondary) 100%), 
+              #7a7474;
+  background-blend-mode: normal, color;
+  background-size: cover;
+  width: 90.50938rem;
+  height: 68.9375rem;
+  flex-shrink: 0;
+  margin: auto;
+}
+
+/* Header Styles */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 10rem 3rem 10rem;
+}
+
+.site-header .logo {
+  width: 10.4385rem;
+  height: 1.84131rem;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: 3.25rem;
+}
+
+.nav-link {
+  color: var(--color-white);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* Banner Styles */
+.banner {
+  text-align: center;
+}
+
+.banner-content {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 90.50938rem;
+}
+
+.banner-text-container {
+  text-align: center;
+  margin: 0 auto;
+  padding: 1.25rem 1.5rem 4rem 1.5rem;
+}
+
+.banner .banner-title {
+  color: #FFF;
+  font-size: 7.5rem;
+  font-weight: 700;
+  margin-top: 5.4rem;
+  margin-bottom: 0;
+}
+
+.subtext-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.5rem;
+}
+
+.subtext-item {
+  color: var(--color-white);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.register-button {
+  background: var(--color-primary);
+  color: var(--color-white);
+  text-align: center;
+  font-family: var(--font-family-main);
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  border-radius: var(--border-radius);
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+/* Pros Section */
+.pros-title {
+  font-size: 32px;
+  color: var(--color-primary);
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.pros-title-bold {
+  color: var(--color-white);
+  font-weight: 300;
+}
+
+.pros-container {
+  text-align: center;
+  padding: 0.5rem 0 0 0;
+}
+
+.pros-content {
+  display: flex;
+  justify-content: center;
+  gap: 9rem;
+  margin-bottom: 3rem;
+}
+
+.person {
+  text-align: center;
+}
+
+.person img {
+  width: 9.375rem;
+  height: 9.375rem;
+  max-width: 100%;
+  height: auto;
+
+}
+
+.person h3 {
+  width: 9.375rem;
+  color: #FFF;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 900;
+  line-height: 1.6875rem;
+}
+
+.person p {
+  width: 9.375rem;
+  color: #FFF;
+  text-align: center;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+/* Quotes Section */
+.quotes-section {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 24.5rem;
+}
+
+.quote-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1440px;
+  padding: 3rem;
+}
+
+.quote-image {
+  width: 9.375rem;
+  height: 9.375rem;
+  margin-right: 3rem;
+}
+
+.quote-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.quote-text-wrapper blockquote {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  margin: 0 0 1.5rem 0;
+  width: 45rem;
+  height: 4.25rem;
+}
+
+.quote-text-wrapper p {
+  font-size: 22px;
+  line-height: 34px;
+  text-align: left;
+}
+
+.weather-presenter {
+  font-style: italic;
+  font-weight: 400;
+  margin-top: 0.5rem;
+}
+
+/* Tutorials Section */
+.tutorials-section {
+  background-color: #FFFFFF;
+  padding: 5rem 0;
+  text-align: left;
+  width: 90.5rem;
+  margin: 0 auto;
+}
+
+.tutorials-title {
+  font-size: 32px;
+  color: #071629;
+  margin: 0 auto;
+  width: 294px;
+  padding-bottom: 2rem;
+  font-weight: 300;
+}
+
+.title-highlight {
+  font-weight: 700;
+  color: #C271FF;
+}
+
+.tutorials-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.tutorial {
+  width: 15.9375rem;
+  height: 23.9375rem;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.tutorial-heading {
+  color: #071629;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.tutorial-description {
+  color: rgba(7, 22, 41, 0.50);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.tutorial-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.author-details {
+  display: flex;
+  align-items: center;
+}
+
+.author-image {
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.author-name {
+  color: var(--color-primary);
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.6875rem;
+  margin-right: 0.5rem;
+}
+
+.rating-and-duration {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.tutorial-rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.tutorial-rating img {
+  width: 20px;
+  height: 20px;
+}
+
+.tutorial-duration {
+  margin-bottom: 2rem;
+  margin-top: 0rem;
+  color: #C271FF;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.6875rem;
+}
+
+
+
+
+.membership-section {
+  background-color: var(--color-secondary);
+  text-align: center;
+  padding: 2rem 0;
+  color: var(--color-white);
+}
+
+
+.membership-title {
+  font-family: Source Sans Pro;
+  font-size: 2rem;
+  font-weight: 300;
+  color: var(--color-white);
+  line-height: normal;
+}
+
+.title-highlight {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+.membership-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.membership-block {
+  width: 257px;
+  text-align: center;
+}
+
+.membership-block img {
+  width: 43.67px;
+  height: 35.35px;
+}
+
+.membership-block h2 {
+  font-family: Source Sans Pro;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  color: var(--color-white);
+  margin: 1rem 0;
+}
+
+.membership-block p {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  color: var(--color-white);
+}
+
+
