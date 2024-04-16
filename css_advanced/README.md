@@ -47,4 +47,4 @@ Your contributions to enhance or improve the CSS are highly appreciated. Please 
 
 ### Contact
 
-[Ismail Mejdoub](mailto:6235@holbertonstudents.com) - For inquiries or further information.
+[Idoudi Mokhtar](idoudimokhtar@gmail.com) - For inquiries or further information.
